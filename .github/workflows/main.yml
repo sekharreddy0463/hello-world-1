@@ -34,7 +34,8 @@ jobs:
         run: |
           # Define the WAR file path
           WAR_FILE_PATH="target/your-java-application.war"
-          
+
+
           # Deploy using curl
           curl -T "$WAR_FILE_PATH" \
             --user "$TOMCAT_USERNAME:$TOMCAT_PASSWORD" \
