@@ -1,5 +1,4 @@
 name: Deploy Java Application to Tomcat
-
 on:
   push:
     branches:
